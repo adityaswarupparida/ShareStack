@@ -1,26 +1,23 @@
 <div align="center">
-    <img width="183" alt="Stackshare" src="https://github.com/user-attachments/assets/6cd0d606-bda2-4082-99a5-aaece417e9b8" />
+    <img width="203" alt="ShareStack" src="https://github.com/user-attachments/assets/6cd0d606-bda2-4082-99a5-aaece417e9b8" />
 </div>
 
 <hr>
 
-# StackShare
+# ShareStack
 
-StackShare is a platform that allows you to share your knowledge with others. It is a community of like-minded individuals who are passionate about sharing their knowledge and expertise with others.
-Your personal knowledge base is your own personal space on StackShare. You can share your knowledge with others, and they can share their knowledge with you. Dump any knowledge you have in a single place, and share it with the world.
+ShareStack is a platform that allows you to share your knowledge with others. It is a community of like-minded individuals who are passionate about sharing their knowledge and expertise with others.
+Your personal knowledge base is your own personal space on ShareStack. You can share your knowledge with others, and they can share their knowledge with you. Dump any knowledge you have in a single place, and share it with the world.
 
-## Tech-stack
+## Tech Stack
 
-### BACKEND
-* TypeScript
-* Express.js
-
-### FRONTEND
-* TypeScript
-* React.js
-
-### DATABASE
-* MongoDB
+* TypeScript - Type-safe language for both backend and frontend
+* Express.js - Node.js backend server framework for handling HTTP requests and responses
+* React.js - JavaScript library for building user interfaces
+* MongoDB - NoSQL database for storing user data
+* Mongoose - MongoDB ODM for Node.js
+* Framer Motion - Animation library for React
+* JWT - Token-based authentication for secure user access
 
 ## Screenshots
 
