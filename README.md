@@ -1,5 +1,8 @@
-<center><img width="183" alt="Stackshare" src="https://github.com/user-attachments/assets/6cd0d606-bda2-4082-99a5-aaece417e9b8" /></center>
----
+<div align="center">
+    <img width="183" alt="Stackshare" src="https://github.com/user-attachments/assets/6cd0d606-bda2-4082-99a5-aaece417e9b8" />
+</div>
+
+<hr>
 
 # StackShare
 
