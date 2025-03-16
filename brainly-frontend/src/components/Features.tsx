@@ -14,7 +14,7 @@ export const Features = () => {
                     viewport={{ once: true }}
                 >
                     <motion.h2
-                        className="text-3xl md:4xl font-bold font-cardo mb-4"
+                        className="text-3xl md:4xl font-bold font-cardo mb-4 dark:text-white"
                         initial={{ opacity: 0, scale: 0.5 }}
                         whileInView={{ opacity: 1, scale: 1 }}
                         transition={{ type: 'spring', duration: 0.8 }}
@@ -34,7 +34,7 @@ export const Features = () => {
                             ShareCharged.
                         </motion.span>
                     </motion.h2>
-                    <p className="text-lg max-w-2xl mx-auto text-black/60 mb-4">
+                    <p className="text-lg max-w-2xl mx-auto text-black/60 dark:text-white/70 mb-4">
                         Organize, connect, and interact with your digital content in ways
                         you never thought possible. The last stop for your digital clutter. 
                     </p>
@@ -47,11 +47,11 @@ export const Features = () => {
                                     className="text-purple-600 h-9 w-9 mb-3"
                                 />
                                 <motion.h3
-                                    className="text-2xl font-bold mb-3 font-cardo"
+                                    className="text-2xl font-bold mb-3 font-cardo dark:text-white"
                                 >
-                                    Knowledge Hub
+                                    Knowledge Universe
                                 </motion.h3>
-                                <p className="text-black/60 mb-4">
+                                <p className="text-black/60 dark:text-white/70 mb-4">
                                     Gather, organize, and access all your digital assets in a centralized location
                                 </p>
                             </div>
@@ -64,11 +64,11 @@ export const Features = () => {
                                     className="text-purple-600 h-9 w-9 mb-3"
                                 />
                                 <motion.h3
-                                    className="text-2xl font-bold mb-3 font-cardo"
+                                    className="text-2xl font-bold mb-3 font-cardo dark:text-white"
                                 >
                                     Share Publicly
                                 </motion.h3>
-                                <p className="text-black/60 mb-4">
+                                <p className="text-black/60 dark:text-white/70 mb-4">
                                     Share your knowledge with the world or keep it private - you decide.
                                 </p>
                             </div>
@@ -81,11 +81,11 @@ export const Features = () => {
                                     className="text-purple-600 h-9 w-9 mb-3"
                                 />
                                 <motion.h3
-                                    className="text-2xl font-bold mb-3 font-cardo"
+                                    className="text-2xl font-bold mb-3 font-cardo dark:text-white"
                                 >
                                     Unlimited Space
                                 </motion.h3>
-                                <p className="text-black/60 mb-4">
+                                <p className="text-black/60 dark:text-white/70 mb-4">
                                     Keep dumping until the cosmos collapses. Your unlimited digital junkyard.
                                 </p>
                             </div>
@@ -98,11 +98,11 @@ export const Features = () => {
                                     className="text-purple-600 h-9 w-9 mb-3"
                                 />
                                 <motion.h3
-                                    className="text-2xl font-bold mb-3 font-cardo"
+                                    className="text-2xl font-bold mb-3 font-cardo dark:text-white"
                                 >
                                     Unrestricted Additions
                                 </motion.h3>
-                                <p className="text-black/60 mb-4">
+                                <p className="text-black/60 dark:text-white/70 mb-4">
                                     Seamlessly add videos, tweets, documents, links, notes from any source.
                                 </p>
                             </div>

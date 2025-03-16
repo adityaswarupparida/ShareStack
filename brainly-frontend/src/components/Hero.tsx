@@ -32,7 +32,7 @@ export const Hero = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5 }}
                 >
-                    <div className="flex justify-center items-center gap-2 mb-4">
+                    <div className="flex justify-center items-center gap-2 mb-4 dark:mix-blend-plus-lighter">
                         <Logo
                             width={90}
                             height={72}
@@ -46,13 +46,13 @@ export const Hero = () => {
                         animate= {{ opacity: 1 }}
                         transition={{ delay: 0.2, duration: 0.5 }}
                     >
-                        <h1 className="text-4xl md:text-6xl font-bold font-cardo mb-4">
-                            Your <span className="text-purple-600 hover:text-purple-700 animate-pulse">Second Brain</span> for the Digital Age
+                        <h1 className="text-4xl md:text-6xl font-extrabold font-cardo mb-4 dark:text-white">
+                            Your <span className="text-purple-600 hover:text-purple-400 animate-pulse">Second Brain</span> for the Digital Age
                         </h1>
                     </motion.div>
 
                     <motion.p
-                        className="text-lg md:text-xl text-black/60 antialiased mb-8 max-w-2xl"
+                        className="text-lg md:text-xl text-black/60 dark:text-white/70 antialiased mb-8 max-w-2xl"
                     >
                         Organize your digital life in one place. Connect your thoughts, save
                         content from across the web, and interact with your knowledge in new ways.
