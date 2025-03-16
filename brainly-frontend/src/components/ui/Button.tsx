@@ -5,7 +5,8 @@ type Sizes = "sm" | "md" | "lg";
 interface ButtonProps {
     variant: Variants;
     size: Sizes;
-    text: string;
+    text?: string;
+    className?: string;
     startIcon?: ReactElement;
     endIcon?: ReactElement;
     fullWidth?: boolean;
@@ -28,7 +29,7 @@ const sizeStyles: Record<Sizes, string> = {
 
 export const Button = (props: ButtonProps) => {
 
-    return <button className={`${variantStyles[props.variant]} ${defaultStyles} ${props.fullWidth ? "w-full justify-center" : ""} ${sizeStyles[props.size]}`} onClick={props.onClick}>
+    return <button className={`${variantStyles[props.variant]} ${defaultStyles} ${props.fullWidth ? "w-full justify-center" : ""} ${sizeStyles[props.size]} ${props.className}`} onClick={props.onClick}>
         <div className={`${props.startIcon ? "pr-2" : ""}`}>{props.startIcon}</div> {props.text}
     </button>
 };
